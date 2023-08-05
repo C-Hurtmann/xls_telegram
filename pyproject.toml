@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "test-telegram-bot"
+version = "0.1.0"
+description = "Testing telegram bot connecting with xls"
+authors = ["C-Hurtmann <constantine2903@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "test_telegram_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.25.1"
+python-decouple = "^3.8"
+google-auth = "^2.22.0"
+google-api-python-client = "^2.95.0"
+google-auth-httplib2 = "^0.1.0"
+google-auth-oauthlib = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
